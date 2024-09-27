@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+:root {
+  --Green: hsl(75, 94%, 57%);
+
+  --White: hsl(0, 0%, 100%);
+
+  --Grey-700: hsl(0, 0%, 20%);
+  --Grey-800: hsl(0, 0%, 12%);
+  --Grey-900: hsl(0, 0%, 8%);
+  --family-inter: "Inter", sans-serif;
+}
+
+body {
+  font-family: var(--family-inter);
+  background-color: var(--Grey-900);
+  color: white;
+  line-height: 0.7;
+}
+.container {
+  height: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.c-content {
+  border-radius: 20px;
+  width: 350px;
+  min-height: 450px;
+  text-align: center;
+  background-color: var(--Grey-800);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.profile {
+  margin-top: 20px;
+}
+.profile p {
+  color: var(--Green);
+}
+.profile img {
+  width: 100px;
+  border-radius: 50%;
+}
+
+.links {
+  padding-bottom: 20px;
+}
+
+.btn {
+  width: 90%;
+  padding: 12px;
+  border: none;
+  margin: 3px;
+  color: white;
+  background-color: hsl(0, 0%, 20%);
+  font-size: 17px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: var(--Green);
+  color: var(--Grey-800);
+}
+
+.attribution a {
+  color: var(--Green);
+  font-size: 16px;
+}
