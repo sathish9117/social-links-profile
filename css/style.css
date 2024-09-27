@@ -31,8 +31,10 @@ body {
 }
 
 .attribution {
-  font-size: 11px;
+  font-size: 13px;
+  justify-content: center;
   text-align: center;
+  display: flex;
 }
 
 .attribution a {
@@ -74,4 +76,11 @@ body {
 .attribution a {
   color: var(--Green);
   font-size: 16px;
+}
+
+@media (max-width: 764px) {
+  .attribution {
+    font-size: 13px;
+    display: block;
+  }
 }
